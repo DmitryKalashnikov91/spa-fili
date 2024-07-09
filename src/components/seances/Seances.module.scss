@@ -1,0 +1,41 @@
+@import '../../app/media';
+.Seances {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+
+	div {
+		position: relative;
+		p {
+			position: absolute;
+			bottom: 50px;
+			left: 10px;
+		}
+	}
+}
+.div1 {
+	grid-area: 1 / 1 / 6 / 2;
+}
+@include media(tablet) {
+	.Seances {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 8px;
+		grid-row-gap: 8px;
+		margin-top: 20px;
+		div {
+			p {
+				font-size: 12px;
+				bottom: 8px;
+				left: 2px;
+				line-height: 10px;
+			}
+		}
+	}
+	.div1 {
+		display: none;
+	}
+}
