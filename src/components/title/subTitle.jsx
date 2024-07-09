@@ -1,4 +1,4 @@
-import Arrow from '@/ui/arrow'
+import { Arrow } from '../../ui/Arrow'
 
 const SubTitle = ({ color, content }) => {
 	const left = 'M0 0H17C26.3888 0 34 7.61116 34 17H17C7.61116 17 0 9.38884 0 0Z'
