@@ -58,7 +58,12 @@ const Prices = () => {
 					</ul>
 				</div>
 				<div className={styles.Prices_content__certificate}>
-					<Image src={certificate} width={420} className='rounded' />
+					<Image
+						src={certificate}
+						width={420}
+						className='rounded'
+						alt='сертификат spa fili'
+					/>
 					<p className='text-center'>
 						<a href='#' className='text-base underline'>
 							Подарочный сертификат

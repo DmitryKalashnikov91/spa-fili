@@ -9,32 +9,37 @@ import relax from './assets/relax.png'
 
 const Seances = () => {
 	return (
-		<div className='md:mt-36 mt-20 w-full'>
+		<section id='seances' className='md:mt-36 mt-20 w-full'>
 			<SubTitle color={'#018ABE'} content={'Сеансы Spa Fili'} />
 			<div className={styles.Seances}>
 				<div className={styles.div1}>
-					<Image src={classic} alt={'seances'} width={416} height={564} />
+					<Image src={classic} alt='seances' width={416} height={564} />
 					<p className='pb-20'>Классический массаж</p>
 				</div>
 
 				<div>
-					<Image src={relax} width={416} height={258} alt='cls' />
+					<Image src={relax} width={416} height={258} alt='relax' />
 					<p>Расслабляющий массаж</p>
 				</div>
 				<div>
-					<Image src={head} width={416} height={258} alt='cls' />
+					<Image src={head} width={416} height={258} alt='швз массаж' />
 					<p>Массаж шейно-воротниковой зоны</p>
 				</div>
 				<div>
-					<Image src={cellulite} width={416} height={258} alt='cls' />
+					<Image
+						src={cellulite}
+						width={416}
+						height={258}
+						alt='антицеллюлитный массаж'
+					/>
 					<p>Антицеллюлитный массаж</p>
 				</div>
 				<div>
-					<Image src={other} width={416} height={258} alt='cls' />
+					<Image src={other} width={416} height={258} alt='виды массажа' />
 					<p>Другие виды массажа</p>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

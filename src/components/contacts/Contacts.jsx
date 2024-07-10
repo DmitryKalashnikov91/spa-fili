@@ -23,9 +23,9 @@ const contactsData = [
 
 const Contacts = () => {
 	return (
-		<section className={styles.Contacts}>
+		<section className={styles.Contacts} id='contacts'>
 			<div className={styles.Contacts_map}>
-				<Image src={map} width={740} />
+				<Image src={map} width={740} alt='карта spa fili' />
 			</div>
 			{contactsData.map(contact => (
 				<ul className={styles.Contacts_card} key={contact.id}>

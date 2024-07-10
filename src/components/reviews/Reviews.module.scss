@@ -4,11 +4,8 @@
 
 	display: flex;
 	gap: 30px;
-	&_card {
-		background-color: #018abe;
-		padding: 35px 25px;
-		border-radius: 10px;
-	}
+	max-width: 500px;
+
 	@include media(tablet) {
 		margin-top: 20px;
 		padding: 10px 5px;
