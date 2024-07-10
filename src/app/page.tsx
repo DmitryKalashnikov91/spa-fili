@@ -1,3 +1,4 @@
+import Contacts from '@/components/contacts/Contacts'
 import Main from '@/components/main/Main'
 import Prices from '@/components/prices/Prices'
 import Reviews from '@/components/reviews/Reviews'
@@ -17,7 +18,7 @@ export default function Home() {
 			<Reviews />
 			<Prices />
 			<Specialists />
-			{/* <Contacts /> */}
+			<Contacts />
 		</main>
 	)
 }

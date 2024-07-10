@@ -3,4 +3,20 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 300px;
+	&_menu {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		li {
+			padding-bottom: 60px;
+			font-size: large;
+		}
+		top: 120px;
+		z-index: 100;
+		width: 100%;
+		height: 480px;
+		background-color: rgba($color: #018abe, $alpha: 0.8);
+	}
 }

@@ -17,7 +17,6 @@ const Header = () => {
 							<li>О нас</li>
 							<li>Отзывы</li>
 							<li>Контакты</li>
-							<li></li>
 						</ul>
 						<button className='bg-sky-600 px-8 py-2 rounded'>
 							Записаться на сеанс
