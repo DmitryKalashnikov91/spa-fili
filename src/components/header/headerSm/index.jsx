@@ -37,7 +37,7 @@ const HeaderSM = () => {
 			<Link href='/'>
 				<img src='spa.png' alt='logo spa fili' width={50} />
 			</Link>
-			<button className='bg-sky-600 px-6  py-2 rounded active:bg-sky-400'>
+			<button className='bg-sky-600 px-6  py-4 rounded active:bg-sky-400'>
 				<Link href='https://dikidi.net/g367474?p=0.sp' target='_blank'>
 					Записаться на сеанс
 				</Link>

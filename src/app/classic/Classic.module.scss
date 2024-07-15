@@ -1,0 +1,24 @@
+@import '../_media';
+
+.Classic {
+	h2 {
+		font-size: 28px;
+	}
+	h2,
+	h3 {
+		text-align: center;
+	}
+	font-size: 18px;
+	line-height: 150%;
+	padding: 10px 40px;
+	ul {
+		padding-right: 155px;
+	}
+}
+@include media(tablet) {
+	.Classic {
+		ul {
+			padding-right: 0;
+		}
+	}
+}
