@@ -19,7 +19,7 @@
 			width: 320px;
 		}
 		p {
-			font-size: 16px;
+			font-size: 20px;
 		}
 	}
 }
@@ -32,6 +32,10 @@
 		}
 		&_wrapper {
 			padding: 8px 10px;
+			p {
+				font-size: 18px;
+				text-align: justify;
+			}
 		}
 	}
 }

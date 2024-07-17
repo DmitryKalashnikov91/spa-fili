@@ -16,7 +16,7 @@ const Seances = () => {
 						<div key={seance.id} className={styles.Seances_block}>
 							<Image src={seance.imgUrl} />
 							<div>
-								<h3 className='text-center pb-4 font-bold '>{seance.name}</h3>
+								<h3 className='text-center py-4 font-bold '>{seance.name}</h3>
 								<p className='md:pl-10 text-justify md:leading-8 tracking-wide'>
 									{seance.content}...
 								</p>
