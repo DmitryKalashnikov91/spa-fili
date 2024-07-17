@@ -1,4 +1,5 @@
 import SubTitle from '@/components/title/subTitle'
+import GoBack from '@/ui/GoBack'
 import Image from 'next/image'
 import relax from '../../../../public/assets/relax.png'
 import styles from './relax.module.scss'
@@ -39,6 +40,7 @@ const Relax = () => {
 				</ul>
 				<Image src={relax} alt='Расслабляющий массаж' />
 			</div>
+			<GoBack />
 		</div>
 	)
 }

@@ -41,7 +41,7 @@ const Contacts = () => {
 						<BsCalendar3 />
 						Запись по договоренности
 					</li>
-					<button>
+					<button className='hover:shadow-xl hover:bg-slate-200'>
 						<Link href={contact.href} target='_blank'>
 							Записаться на сеанс
 						</Link>

@@ -1,4 +1,5 @@
 import SubTitle from '@/components/title/subTitle'
+import GoBack from '@/ui/GoBack'
 import Image from 'next/image'
 import cupping from '../../../../public/assets/cupping.png'
 import styles from './cupping.module.scss'
@@ -35,6 +36,7 @@ const Relax = () => {
 				</ul>
 				<Image src={cupping} alt='Баночный массаж' />
 			</div>
+			<GoBack />
 		</div>
 	)
 }

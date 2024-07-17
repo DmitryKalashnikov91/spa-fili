@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import SubTitle from '../title/subTitle'
 import styles from './Prices.module.scss'
 import certificate from './cert.jpg'
@@ -54,7 +55,9 @@ const Prices = () => {
 								<p className=''>от {price}р.</p>
 							</li>
 						))}
-						<li className='text-center pt-8 text-lg underline'>Подробнее...</li>
+						<li className='text-center pt-8 text-lg underline'>
+							<Link href='/catalog'>Подробнее...</Link>
+						</li>
 					</ul>
 				</div>
 				<div className={styles.Prices_content__certificate}>

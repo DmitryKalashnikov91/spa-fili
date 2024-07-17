@@ -61,3 +61,24 @@ export const DATA = [
 			'Баночный массаж — это вид массажа, имеющий важное терапевтическое значение. В специальных ёмкостях («массажных колоколах») искусственно создаётся вакуум, что способствует снабжению тканей кислородом, стимулирует обмен веществ и улучшает кровообращение.',
 	},
 ]
+
+export const MASS_DATA_PCKG = [
+	{ id: nanoid(6), minutes: 30, price: 1950 },
+	{ id: nanoid(6), minutes: 45, price: 2700 },
+	{ id: nanoid(6), minutes: 60, price: 3200 },
+	{ id: nanoid(6), minutes: 90, price: 4850 },
+	{ id: nanoid(6), minutes: 120, price: 6000 },
+]
+
+export const SIX_DATA_PCKG = [
+	{ id: nanoid(6), minutes: 30, price: 10200, perOne: 1700 },
+	{ id: nanoid(6), minutes: 45, price: 14700, perOne: 2450 },
+	{ id: nanoid(6), minutes: 60, price: 16800, perOne: 2800 },
+	{ id: nanoid(6), minutes: 90, price: 25200, perOne: 4200 },
+]
+export const ELEVEN_DATA_PCKG = [
+	{ id: nanoid(6), minutes: 30, price: 18000, perOne: 1600 },
+	{ id: nanoid(6), minutes: 45, price: 25800, perOne: 2300 },
+	{ id: nanoid(6), minutes: 60, price: 30000, perOne: 2700 },
+	{ id: nanoid(6), minutes: 90, price: 44000, perOne: 4000 },
+]

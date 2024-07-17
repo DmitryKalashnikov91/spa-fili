@@ -11,7 +11,7 @@ const Seances = () => {
 	const router = useRouter()
 
 	return (
-		<section id='seances' className='md:mt-36 mt-20 w-full'>
+		<section id='seances' className=' md:mt-36 mt-20 '>
 			<SubTitle color={'#018ABE'} content={'Сеансы Спа Фили'} />
 			<div className={styles.Seances}>
 				{DATA.map(
@@ -22,7 +22,7 @@ const Seances = () => {
 								onClick={() => router.push(`/seances${item.linkTo}`)}
 							>
 								<Image src={item.imgUrl} alt={item.name} />
-								<p>{item.name}</p>
+								<p className='text-center'>{item.name}</p>
 							</div>
 						)
 				)}

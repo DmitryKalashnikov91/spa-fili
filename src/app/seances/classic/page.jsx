@@ -1,4 +1,5 @@
 import SubTitle from '@/components/title/subTitle'
+import GoBack from '@/ui/GoBack'
 import Image from 'next/image'
 import classic from '../../../../public/assets/classic.png'
 import styles from './Classic.module.scss'
@@ -40,6 +41,7 @@ const Classic = () => {
 				</ul>
 				<Image src={classic} alt='классический' />
 			</div>
+			<GoBack />
 		</div>
 	)
 }

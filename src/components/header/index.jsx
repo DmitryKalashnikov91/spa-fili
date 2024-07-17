@@ -38,7 +38,7 @@ const Header = () => {
 								Контакты
 							</li>
 						</ul>
-						<button className='bg-sky-600 px-8 py-2 rounded hover:bg-sky-400 '>
+						<button className='bg-sky-600 text-2xl px-8 py-2 rounded hover:bg-sky-400 '>
 							<Link href='https://dikidi.net/g367474?p=0.sp' target='_blank'>
 								Записаться на сеанс
 							</Link>

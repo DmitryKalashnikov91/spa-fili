@@ -1,4 +1,5 @@
 import SubTitle from '@/components/title/subTitle'
+import GoBack from '@/ui/GoBack'
 import Image from 'next/image'
 import neck from '../../../../public/assets/head.png'
 import styles from './neck.module.scss'
@@ -29,6 +30,7 @@ const Neck = () => {
 				</ul>
 				<Image src={neck} alt='Расслабляющий массаж' />
 			</div>
+			<GoBack />
 		</div>
 	)
 }

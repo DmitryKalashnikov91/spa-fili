@@ -1,4 +1,5 @@
 import SubTitle from '@/components/title/subTitle'
+import GoBack from '@/ui/GoBack'
 import Image from 'next/image'
 import cellulite from '../../../../public/assets/cellulite.png'
 import styles from './cellulite.module.scss'
@@ -46,6 +47,7 @@ const Cellulite = () => {
 				</ul>
 				<Image src={cellulite} alt='антицеллюлитный массаж' />
 			</div>
+			<GoBack />
 		</div>
 	)
 }

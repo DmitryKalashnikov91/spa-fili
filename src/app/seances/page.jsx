@@ -1,5 +1,6 @@
 'use client'
 import SubTitle from '@/components/title/subTitle'
+import GoBack from '@/ui/GoBack'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { DATA } from '../../../public/data/data'
@@ -24,12 +25,13 @@ const Seances = () => {
 									onClick={() => router.push(`/seances${seance.linkTo}`)}
 									className='bg-sky-600 px-6  py-2 rounded active:bg-sky-400 md:ml-10 mt-2'
 								>
-									подробнее
+									Подробнее
 								</button>
 							</div>
 						</div>
 					)
 			)}
+			<GoBack />
 		</div>
 	)
 }
