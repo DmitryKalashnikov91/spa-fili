@@ -8,7 +8,7 @@ const Main = () => {
 				<div className={styles.Main_bg__head}>
 					<SubTitle content={'Массажный салон'} color={'white'} />
 				</div>
-				<h1 className='tracking-widest'>Spa Fili</h1>
+				<h1 className='tracking-widest'>СПА Фили</h1>
 			</div>
 		</div>
 	)

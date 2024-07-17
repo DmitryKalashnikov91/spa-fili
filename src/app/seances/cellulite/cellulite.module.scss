@@ -1,6 +1,6 @@
-@import '../_media';
+@import '../../_media';
 
-.Classic {
+.Cellulite {
 	h2 {
 		font-size: 28px;
 	}
@@ -13,10 +13,17 @@
 	padding: 10px 40px;
 	ul {
 		padding-right: 155px;
+		> li {
+			padding-top: 25px;
+			list-style-type: disc;
+		}
+	}
+	> img {
+		width: 400px;
 	}
 }
 @include media(tablet) {
-	.Classic {
+	.Cellulite {
 		ul {
 			padding-right: 0;
 		}

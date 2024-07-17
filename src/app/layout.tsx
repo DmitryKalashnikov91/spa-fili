@@ -14,9 +14,9 @@ export default function RootLayout({
 			<body className={elMessiri.className}>
 				<Header />
 				{children}
-				<footer className='text-center text-lg text-cyan-600'>
+				<footer className='text-center text-lg text-cyan-600 mt-60'>
 					2024
-					<p>Spa Fili</p>
+					<p>Спа Фили</p>
 				</footer>
 			</body>
 		</html>

@@ -1,31 +1,40 @@
+import { nanoid } from 'nanoid'
 import Image from 'next/image'
 import SubTitle from '../title/subTitle'
 import styles from './Specialists.module.scss'
 import konstantine from './assets/konst.png'
 import Mariya from './assets/mariya.png'
 import Olga from './assets/olga.png'
+import Slava from './assets/slava.png'
 
 const specData = [
 	{
-		id: 1,
+		id: nanoid(6),
 		name: 'Ольга',
 		urlImg: Olga,
 		content:
 			'Ольга: 7 лет стажа - все виды ручного массажа (Классический, Антицеллюлитный , Лимфодренажный, Аппаратный массаж (RF-лифтинг, Indiba, кавитация, вакуумный, вибрационный.), Коррекция фигуры, Скрабирование тела, Обертывание)',
 	},
 	{
-		id: 2,
+		id: nanoid(6),
 		name: 'Константин',
 		urlImg: konstantine,
 		content:
 			'Константин: 20 лет стажа - все виды ручного массажа (Классический массаж,  Антицеллюлитный, Лимфодренажный, Спортивный, Баночный, Расслабляющий массаж, Массаж лица (классический)).',
 	},
 	{
-		id: 3,
+		id: nanoid(6),
 		name: 'Мария',
 		urlImg: Mariya,
 		content:
 			'Мария: остеопат-массажист  - 15 лет стажа, мед.образование. Все виды массажа, плюс остеопатия.',
+	},
+	{
+		id: nanoid(6),
+		name: 'Вячеслав',
+		urlImg: Slava,
+		content:
+			'В профессии 4 года. Все виды ручного массажа (Классический массаж, Антицеллюлитный, Лимфодренажный, Спортивный, Баночный, Расслабляющий массаж, Массаж лица (классический))',
 	},
 ]
 

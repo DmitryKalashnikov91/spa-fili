@@ -13,17 +13,17 @@ const menu = [
 	{
 		id: 2,
 		name: 'О нас',
-		link: '#seances',
+		link: '/#seances',
 	},
 	{
 		id: 3,
 		name: 'Отзывы',
-		link: '#reviews',
+		link: '/#reviews',
 	},
 	{
 		id: 4,
 		name: 'Контакты',
-		link: '#contacts',
+		link: '/#contacts',
 	},
 ]
 

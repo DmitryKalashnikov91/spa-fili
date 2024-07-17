@@ -4,43 +4,28 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import SubTitle from '../title/subTitle'
 import styles from './Seances.module.scss'
-import cellulite from './assets/cellulite.png'
-import classic from './assets/classic.png'
-import head from './assets/head.png'
-import other from './assets/other.png'
-import relax from './assets/relax.png'
 
-const LINKS = [
-	{ id: 1, linkTo: '/classic', name: 'Классический массаж', imgSrc: classic },
-	{ id: 2, linkTo: '/relax', name: 'Расслабляющий массаж', imgSrc: relax },
-	{
-		id: 3,
-		linkTo: '/head',
-		name: 'Массаж шейно-воротниковой зоны',
-		imgSrc: head,
-	},
-	{
-		id: 4,
-		linkTo: '/cellulite',
-		name: 'Антицеллюлитный массаж',
-		imgSrc: cellulite,
-	},
-	{ id: 5, linkTo: '/all', name: 'Все виды массажа', imgSrc: other },
-]
+import { DATA } from '../../../public/data/data'
 
 const Seances = () => {
 	const router = useRouter()
 
 	return (
 		<section id='seances' className='md:mt-36 mt-20 w-full'>
-			<SubTitle color={'#018ABE'} content={'Сеансы Spa Fili'} />
+			<SubTitle color={'#018ABE'} content={'Сеансы Спа Фили'} />
 			<div className={styles.Seances}>
-				{LINKS.map(item => (
-					<div key={item.id} onClick={() => router.push(`${item.linkTo}`)}>
-						<Image src={item.imgSrc} alt={item.name} />
-						<p>{item.name}</p>
-					</div>
-				))}
+				{DATA.map(
+					item =>
+						item.isMain && (
+							<div
+								key={item.id}
+								onClick={() => router.push(`/seances${item.linkTo}`)}
+							>
+								<Image src={item.imgUrl} alt={item.name} />
+								<p>{item.name}</p>
+							</div>
+						)
+				)}
 				{/* <div onClick={() => router.push('/classic')} className={styles.div1}>
 					<Image src={classic} alt='seances' width={416} height={564} />
 					<p className='pb-20'>Классический массаж</p>

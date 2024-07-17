@@ -21,7 +21,7 @@ const CustomSlider = () => {
 						className='bg-sky-600 flex justify-center items-center rounded-xl px-8'
 					>
 						<div className='text-justify'>
-							<h4 className='pb-4'>{rev.name}</h4>
+							<h4 className='pb-4 pt-4'>{rev.name}</h4>
 							<Stars />
 							<p className='text-base pb-4'>{rev.content}</p>
 						</div>

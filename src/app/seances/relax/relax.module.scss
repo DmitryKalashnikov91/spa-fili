@@ -1,0 +1,30 @@
+@import '../../_media';
+
+.Relax {
+	h2 {
+		font-size: 28px;
+	}
+	h2,
+	h3 {
+		text-align: center;
+	}
+	font-size: 18px;
+	line-height: 150%;
+	padding: 10px 40px;
+	ul {
+		padding-right: 155px;
+		> li {
+			padding-top: 25px;
+		}
+	}
+	> img {
+		width: 400px;
+	}
+}
+@include media(tablet) {
+	.Relax {
+		ul {
+			padding-right: 0;
+		}
+	}
+}

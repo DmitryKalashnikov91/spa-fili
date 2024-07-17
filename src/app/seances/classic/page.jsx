@@ -1,6 +1,6 @@
 import SubTitle from '@/components/title/subTitle'
 import Image from 'next/image'
-import classic from '../../components/seances/assets/classic.png'
+import classic from '../../../../public/assets/classic.png'
 import styles from './Classic.module.scss'
 
 const Classic = () => {
@@ -8,7 +8,7 @@ const Classic = () => {
 		<div className={styles.Classic}>
 			<SubTitle color={'#018ABE'} content={'Сеансы Спа Фили'} />
 			<div className='flex flex-col-reverse md:flex-row items-center justify-center mt-10'>
-				<ul className='text-justify'>
+				<ul className='text-justify w-full'>
 					<h3 className='py-8 text-2xl'>Классический массаж</h3>
 					<li>
 						Классический массаж — наиболее распространённый вид массажа, который
@@ -38,7 +38,7 @@ const Classic = () => {
 						здоровья
 					</li>
 				</ul>
-				<Image src={classic} alt='classic' />
+				<Image src={classic} alt='классический' />
 			</div>
 		</div>
 	)
