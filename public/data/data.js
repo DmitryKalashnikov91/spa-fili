@@ -109,3 +109,35 @@ export const ELEVEN_DATA_PCKG = [
 	{ id: nanoid(6), minutes: 60, price: 30000, perOne: 2700 },
 	{ id: nanoid(6), minutes: 90, price: 44000, perOne: 4000 },
 ]
+export const OSTEO_PCKG = [
+	{
+		id: nanoid(6),
+		name: 'Рекомендации, диагностика',
+		price: 1000,
+	},
+	{
+		id: nanoid(6),
+		name: 'Коррекция осанки',
+		price: 5000,
+	},
+	{
+		id: nanoid(6),
+		name: 'Остеопатический массаж',
+		price: 4000,
+	},
+	{
+		id: nanoid(6),
+		name: 'Устранение боли, зажимов смещений, блоков',
+		price: 4500,
+	},
+	{
+		id: nanoid(6),
+		name: 'Лимфатическая терапия',
+		price: 5000,
+	},
+	{
+		id: nanoid(6),
+		name: 'Биоэнергорегуляция (БЭМ)',
+		price: 3000,
+	},
+]
