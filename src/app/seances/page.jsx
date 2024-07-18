@@ -19,14 +19,16 @@ const Seances = () => {
 							<div>
 								<h3 className='text-center py-4 font-bold '>{seance.name}</h3>
 								<p className='md:pl-10 text-justify md:leading-8 tracking-wide'>
-									{seance.content}...
+									{seance.content}
 								</p>
-								<button
-									onClick={() => router.push(`/seances${seance.linkTo}`)}
-									className='bg-sky-600 px-6  py-2 rounded active:bg-sky-400 md:ml-10 mt-2'
-								>
-									Подробнее
-								</button>
+								{seance.linkTo && (
+									<button
+										onClick={() => router.push(`/seances${seance.linkTo}`)}
+										className='bg-sky-600 px-6  py-2 rounded active:bg-sky-400 md:ml-10 mt-2'
+									>
+										Подробнее
+									</button>
+								)}
 							</div>
 						</div>
 					)
