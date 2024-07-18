@@ -18,6 +18,7 @@ const Seances = () => {
 					item =>
 						item.isMain && (
 							<div
+								className='hover:scale-105'
 								key={item.id}
 								onClick={() => router.push(`/seances${item.linkTo}`)}
 							>

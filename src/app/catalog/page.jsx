@@ -20,7 +20,7 @@ const Catalog = () => {
 						</li>
 					))}
 				</ul>
-				<h3 className='pb-6 mt-14'>Абонемент 6 дней</h3>
+				<h3 className='pb-6 mt-14'>Абонемент 6 сеансов</h3>
 				<ul>
 					{SIX_DATA_PCKG.map(six => (
 						<li className='pb-5' key={six.id}>

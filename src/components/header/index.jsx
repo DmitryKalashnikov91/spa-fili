@@ -1,8 +1,11 @@
 'use client'
 import HeaderSm from '@/components/header/headerSm'
 import { useDeviceSizes } from '@/ui/hoc/consts-breakpoints'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import { FaTelegramPlane, FaWhatsapp } from 'react-icons/fa'
+import { FiPhone } from 'react-icons/fi'
 
 const Header = () => {
 	const router = useRouter()
@@ -13,7 +16,13 @@ const Header = () => {
 				{isSmallDesktop || isLargeDesktop ? (
 					<header className='flex justify-center items-center text-lg pt-5 space-x-28'>
 						<Link href='/'>
-							<img src='/spa.png' alt='spa fili' width={80} />
+							<Image
+								src='/spa.png'
+								alt='spa fili'
+								width={80}
+								loading='lazy'
+								height={80}
+							/>
 						</Link>
 						<ul className='flex gap-24 caret-transparent '>
 							<li>
@@ -47,6 +56,29 @@ const Header = () => {
 				) : (
 					<HeaderSm />
 				)}
+			</div>
+			<div className='flex  mb-10 -mt-8 justify-evenly md:justify-end md:mr-72 md:gap-32 text-2xl'>
+				<Link
+					className='hover:scale-150'
+					href={'https://wa.me/79689893388'}
+					target='_blank'
+				>
+					<FaWhatsapp />
+				</Link>
+				<Link
+					className='hover:scale-150'
+					href={'https://t.me/spaAlex'}
+					target='_blank'
+				>
+					<FaTelegramPlane />
+				</Link>
+				<Link
+					className='hover:scale-150'
+					href={'tel:+79689893388'}
+					target='_blank'
+				>
+					<FiPhone />
+				</Link>
 			</div>
 		</>
 	)
