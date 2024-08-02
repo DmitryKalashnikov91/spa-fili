@@ -4,6 +4,7 @@ import GoBack from '@/ui/GoBack'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { DATA } from '../../../public/data/data'
+import { ROBOTO_FNT } from './CONSTS'
 import styles from './Seances.module.scss'
 
 const Seances = () => {
@@ -18,7 +19,12 @@ const Seances = () => {
 							<Image src={seance.imgUrl} />
 							<div>
 								<h3 className='text-center py-4 font-bold '>{seance.name}</h3>
-								<p className='md:pl-10 text-justify md:leading-8 tracking-wide'>
+								<p
+									className={
+										`md:pl-10 text-justify md:leading-8 tracking-wide ` +
+										ROBOTO_FNT.className
+									}
+								>
 									{seance.content}
 								</p>
 								{seance.linkTo && (
