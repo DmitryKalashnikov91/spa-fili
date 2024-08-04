@@ -7,7 +7,7 @@ const GoBack = () => {
 	return (
 		<button
 			onClick={() => router.back()}
-			className='flex gap-2 bg-sky-600 text-2xl px-6 py-2 rounded hover:bg-sky-400'
+			className='flex gap-2 mt-4 bg-sky-600 text-2xl px-6 py-2 rounded hover:bg-sky-400'
 		>
 			<IoMdArrowRoundBack /> Назад
 		</button>
