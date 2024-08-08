@@ -2,10 +2,9 @@ import { nanoid } from 'nanoid'
 import Image from 'next/image'
 import SubTitle from '../title/subTitle'
 import styles from './Specialists.module.scss'
-import konstantine from './assets/konst.png'
+import konst from './assets/konst.png'
 import Mariya from './assets/mariya.png'
 import Olga from './assets/olga.png'
-import Slava from './assets/slava.png'
 
 const specData = [
 	{
@@ -18,7 +17,7 @@ const specData = [
 	{
 		id: nanoid(6),
 		name: 'Константин',
-		urlImg: konstantine,
+		urlImg: konst,
 		content:
 			'20 лет стажа - все виды ручного массажа (Классический массаж,  Антицеллюлитный, Лимфодренажный, Спортивный, Баночный, Расслабляющий массаж, Массаж лица (классический)).',
 	},
@@ -28,13 +27,6 @@ const specData = [
 		urlImg: Mariya,
 		content:
 			'Остеопат-массажист  - 15 лет стажа, мед.образование. Все виды массажа, плюс остеопатия.',
-	},
-	{
-		id: nanoid(6),
-		name: 'Вячеслав',
-		urlImg: Slava,
-		content:
-			'В профессии 4 года. Все виды ручного массажа (Классический массаж, Спортивный, Баночный, Расслабляющий массаж, Силовой)',
 	},
 ]
 
