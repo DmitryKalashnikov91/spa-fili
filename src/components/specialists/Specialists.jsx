@@ -2,6 +2,7 @@ import { nanoid } from 'nanoid'
 import Image from 'next/image'
 import SubTitle from '../title/subTitle'
 import styles from './Specialists.module.scss'
+import Elena from './assets/elena.png'
 import konst from './assets/konst.png'
 import Mariya from './assets/mariya.png'
 import Olga from './assets/olga.png'
@@ -28,6 +29,13 @@ const specData = [
 		content:
 			'Остеопат-массажист  - 15 лет стажа, мед.образование. Все виды массажа, плюс остеопатия.',
 	},
+	{
+		id: nanoid(6),
+		name: 'Елена',
+		urlImg: Elena,
+		content:
+			'Опыт 5,5 лет, все виды русного массажа: Классический, Релакс,  Лимфодренажный, Спортивный, Антицеллюлитный, Коррекция фигуры (Медовый, Солевой), Массаж лица (классика, скульптурный), Баночный.',
+	},
 ]
 
 const Specialists = () => {
@@ -40,7 +48,7 @@ const Specialists = () => {
 						<Image src={spec.urlImg} alt={spec.name} />
 						<div className={styles.Specialists_wrapper__content}>
 							<h4>{spec.name}</h4>
-							<p>{spec.content}</p>
+							<p className='tracking-wide'>{spec.content}</p>
 						</div>
 					</div>
 				))}
