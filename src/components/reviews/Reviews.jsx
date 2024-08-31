@@ -6,7 +6,7 @@ import CustomSlider from './slider/CustomSlider'
 const Reviews = () => {
 	return (
 		<section
-			className='md:mt-36 mt-16 flex flex-col justify-center'
+			className='md:mt-22 mt-16 flex flex-col justify-center'
 			id='reviews'
 		>
 			<SubTitle color={'#018ABE'} content={'Отзывы'} />

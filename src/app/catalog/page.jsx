@@ -1,8 +1,8 @@
 import {
-	ELEVEN_DATA_PCKG,
+	FIVE_DATA_PCKG,
 	MASS_DATA_PCKG,
 	OSTEO_PCKG,
-	SIX_DATA_PCKG,
+	TEN_DATA_PCKG,
 } from '../../../public/data/data'
 import SubTitle from '../../components/title/subTitle'
 import styles from './catalog.module.scss'
@@ -21,21 +21,21 @@ const Catalog = () => {
 						</li>
 					))}
 				</ul>
-				<h3 className='pb-6 mt-14'>Абонемент 6 сеансов</h3>
+				<h3 className='pb-6 mt-14'>Абонемент 5 сеансов</h3>
 				<ul>
-					{SIX_DATA_PCKG.map(six => (
-						<li className='pb-5' key={six.id}>
-							{six.minutes} минут - {six.price} рублей <br />({six.perOne}р. за
-							сеанс)
+					{FIVE_DATA_PCKG.map(five => (
+						<li className='pb-5' key={five.id}>
+							{five.minutes} минут - {five.price} рублей <br />({five.perOne}р.
+							за сеанс)
 						</li>
 					))}
 				</ul>
 				<h3 className='my-6'>Абонемент 11 сеансов</h3>
 				<ul>
-					{ELEVEN_DATA_PCKG.map(eleven => (
-						<li className='pb-5' key={eleven.id}>
-							{eleven.minutes} минут - {eleven.price} рублей <br />(
-							{eleven.perOne}р. за сеанс)
+					{TEN_DATA_PCKG.map(ten => (
+						<li className='pb-5' key={ten.id}>
+							{ten.minutes} минут - {ten.price} рублей <br />({ten.perOne}р. за
+							сеанс)
 						</li>
 					))}
 				</ul>

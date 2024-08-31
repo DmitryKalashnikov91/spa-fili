@@ -57,7 +57,7 @@ const Header = () => {
 					<HeaderSm />
 				)}
 			</div>
-			<div className='flex  mb-10 -mt-8 justify-evenly md:justify-end md:mr-72 md:gap-32 text-2xl'>
+			<div className='flex  mb-10 -mt-8 justify-evenly md:justify-end md:mr-72 md:gap-32 text-4xl'>
 				<Link
 					className='hover:scale-150'
 					href={'https://wa.me/79689893388'}
