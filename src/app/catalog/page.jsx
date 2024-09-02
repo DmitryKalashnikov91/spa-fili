@@ -30,7 +30,7 @@ const Catalog = () => {
 						</li>
 					))}
 				</ul>
-				<h3 className='my-6'>Абонемент 11 сеансов</h3>
+				<h3 className='my-6'>Абонемент 10 сеансов</h3>
 				<ul>
 					{TEN_DATA_PCKG.map(ten => (
 						<li className='pb-5' key={ten.id}>

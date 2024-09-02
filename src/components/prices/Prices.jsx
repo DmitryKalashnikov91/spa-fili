@@ -8,16 +8,16 @@ const priceData = [
 	{
 		id: 1,
 		name: 'Разовые услуги',
-		price: '1 950',
+		price: '2 200',
 	},
 	{
 		id: 2,
-		name: 'Абонемент 6 сеансов',
-		price: '9 600',
+		name: 'Абонемент 5 сеансов',
+		price: '9 500',
 	},
 	{
 		id: 3,
-		name: 'Абонемент 11 сеансов',
+		name: 'Абонемент 10 сеансов',
 		price: '18 000',
 	},
 	{
@@ -64,7 +64,7 @@ const Prices = () => {
 					<Image
 						src={certificate}
 						width={420}
-						className='rounded'
+						className='rounded-xl'
 						alt='сертификат spa fili'
 					/>
 					<p className='text-center'>
