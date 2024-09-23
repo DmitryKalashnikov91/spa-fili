@@ -2,7 +2,6 @@ import { nanoid } from 'nanoid'
 import Dmitry from './assets/dmitry.png'
 import konst from './assets/konst.png'
 import Mariya from './assets/mariya.png'
-import Mary from './assets/mary.png'
 import Olga from './assets/olga.png'
 
 export const SpecJSON = [
@@ -20,13 +19,7 @@ export const SpecJSON = [
 		content:
 			'20 лет стажа - все виды ручного массажа (Классический массаж,  Антицеллюлитный, Лимфодренажный, Спортивный, Баночный, Расслабляющий массаж, Массаж лица (классический)).',
 	},
-	{
-		id: nanoid(6),
-		name: 'Мария',
-		urlImg: Mary,
-		content:
-			'Опыт 5 лет - все виды ручного массажа: Классический, Лимфодренажный, Антицеллюлитный, Спортивный, Релакс, Горячими камнями, Медовый, Баночный,Фасциальная пластика всего тела и лица, Юмейхо, Абдоминальный',
-	},
+
 	{
 		id: nanoid(6),
 		name: 'Дмитрий',
