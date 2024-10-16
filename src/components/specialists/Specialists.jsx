@@ -12,7 +12,9 @@ const Specialists = () => {
 					<div className={styles.Specialists_wrapper} key={spec.id}>
 						<Image src={spec.urlImg} alt={spec.name} />
 						<div className={styles.Specialists_wrapper__content}>
-							<h4>{spec.name}</h4>
+							<h4 className='text-center text-3xl tracking-widest'>
+								{spec.name}
+							</h4>
 							<p className='tracking-wide'>{spec.content}</p>
 						</div>
 					</div>
