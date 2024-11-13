@@ -1,9 +1,7 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { BsCalendar3, BsFillGeoAltFill } from 'react-icons/bs'
 import { SiMoscowmetro } from 'react-icons/si'
 import styles from './Contacts.module.scss'
-import map from './maps.png'
 const contactsData = [
 	{
 		id: 1,
@@ -25,8 +23,14 @@ const Contacts = () => {
 	return (
 		<section className={styles.Contacts} id='contacts'>
 			<div className={styles.Contacts_map}>
-				<Image src={map} width={740} alt='карта spa fili' />
+				<iframe
+					src='https://yandex.ru/map-widget/v1/?um=constructor%3A4902db93dcb2167162015f2aa7e95122afed8c134c6c16009323d6f3bc3f3435&amp;source=constructor'
+					width='600'
+					height='450'
+					frameborder='0'
+				></iframe>
 			</div>
+
 			{contactsData.map(contact => (
 				<ul className={styles.Contacts_card} key={contact.id}>
 					<span>{contact.name}</span>
