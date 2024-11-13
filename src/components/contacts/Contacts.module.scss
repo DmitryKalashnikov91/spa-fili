@@ -51,9 +51,11 @@
 		flex-direction: column-reverse;
 		margin-left: 0;
 		padding: 10px;
-		img {
+		iframe {
 			width: 340px;
+			border-radius: 10px;
 		}
+
 		ul {
 			width: 340px;
 		}

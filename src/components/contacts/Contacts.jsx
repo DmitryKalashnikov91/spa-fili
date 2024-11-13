@@ -27,7 +27,7 @@ const Contacts = () => {
 					src='https://yandex.ru/map-widget/v1/?um=constructor%3A4902db93dcb2167162015f2aa7e95122afed8c134c6c16009323d6f3bc3f3435&amp;source=constructor'
 					width='600'
 					height='450'
-					frameborder='0'
+					frameBorder='0'
 				></iframe>
 			</div>
 
