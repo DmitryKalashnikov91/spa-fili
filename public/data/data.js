@@ -106,8 +106,8 @@ export const FIVE_DATA_PCKG = [
 export const TEN_DATA_PCKG = [
 	{ id: nanoid(6), minutes: 30, price: 18000, perOne: 1800 },
 	{ id: nanoid(6), minutes: 45, price: 26000, perOne: 2600 },
-	{ id: nanoid(6), minutes: 60, price: 30000, perOne: 2700 },
-	{ id: nanoid(6), minutes: 90, price: 33000, perOne: 3300 },
+	{ id: nanoid(6), minutes: 60, price: 33000, perOne: 3300 },
+	{ id: nanoid(6), minutes: 90, price: 44000, perOne: 4400 },
 ]
 export const OSTEO_PCKG = [
 	{
