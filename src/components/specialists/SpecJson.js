@@ -1,6 +1,5 @@
 import { nanoid } from 'nanoid'
 import Olga from './assets/da.png'
-import Denis from './assets/denis.png'
 import Dmitry from './assets/dmitr.png'
 import konst from './assets/konst.png'
 import Mariya from './assets/mariya.png'
@@ -34,11 +33,5 @@ export const SpecJSON = [
 		urlImg: Dmitry,
 		content:
 			'Опыт 5 лет. Все виды ручного массажа. Массаж лица: Гуаша, Скульптурирующий, Буккальный, Классический, Лимфодренажный.',
-	},
-	{
-		id: nanoid(6),
-		name: 'Денис',
-		urlImg: Denis,
-		content: 'Опыт 7 лет. Все виды ручного массажа. Китайские методики Су Джок',
 	},
 ]
