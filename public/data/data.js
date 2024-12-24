@@ -101,7 +101,7 @@ export const FIVE_DATA_PCKG = [
 	{ id: nanoid(6), minutes: 30, price: 9500, perOne: 1900 },
 	{ id: nanoid(6), minutes: 45, price: 13500, perOne: 2700 },
 	{ id: nanoid(6), minutes: 60, price: 17000, perOne: 3400 },
-	{ id: nanoid(6), minutes: 90, price: 25200, perOne: 4500 },
+	{ id: nanoid(6), minutes: 90, price: 23000, perOne: 4600 },
 ]
 export const TEN_DATA_PCKG = [
 	{ id: nanoid(6), minutes: 30, price: 18000, perOne: 1800 },
