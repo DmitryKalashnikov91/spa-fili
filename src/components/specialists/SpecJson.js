@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid'
 import konst from './assets/konst.png'
 import Mariya from './assets/mary.png'
-import Oleg from './assets/oleg.png'
+import Oleg from './assets/Oleg2.png'
 import Olga from './assets/olga.png'
 
 export const SpecJSON = [
