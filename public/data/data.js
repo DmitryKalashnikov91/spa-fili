@@ -112,32 +112,37 @@ export const TEN_DATA_PCKG = [
 export const OSTEO_PCKG = [
 	{
 		id: nanoid(6),
-		name: 'Рекомендации, диагностика',
-		price: 1000,
+		name: 'Осмотр, Рекомендации, диагностика',
+		price: 2000,
 	},
 	{
 		id: nanoid(6),
 		name: 'Коррекция осанки',
-		price: 5000,
+		price: 6000,
 	},
 	{
 		id: nanoid(6),
 		name: 'Остеопатический массаж',
-		price: 4000,
+		price: 5500,
 	},
 	{
 		id: nanoid(6),
 		name: 'Устранение боли, зажимов смещений, блоков',
-		price: 4500,
+		price: 6000,
 	},
 	{
 		id: nanoid(6),
 		name: 'Лимфатическая терапия',
-		price: 5000,
+		price: 6000,
 	},
 	{
 		id: nanoid(6),
 		name: 'Биоэнергорегуляция (БЭМ)',
+		price: 4000,
+	},
+	{
+		id: nanoid(6),
+		name: 'Висцеральный массаж',
 		price: 3000,
 	},
 ]
