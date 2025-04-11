@@ -39,7 +39,7 @@
 			flex-direction: column;
 			align-items: center;
 			padding-top: 150px;
-			gap: 70px;
+			gap: 40px;
 			justify-content: center;
 		}
 	}
@@ -52,13 +52,13 @@
 		min-height: 300px;
 
 		&_bg {
-			gap: 30px;
+			gap: 10px;
 			h1 {
 				font-size: 44px;
 			}
 
 			&__head {
-				padding-top: 40px;
+				padding-top: 20px;
 				align-items: center;
 			}
 		}
