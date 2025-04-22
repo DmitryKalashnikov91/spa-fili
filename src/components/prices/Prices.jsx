@@ -55,7 +55,7 @@ const Prices = () => {
 								<p className=''>от {price}р.</p>
 							</li>
 						))}
-						<li className='text-center tracking-widest pt-8 text-xl underline'>
+						<li className='text-center tracking-widest pt-2 text-xl underline'>
 							<Link href='/catalog'>Подробнее...</Link>
 						</li>
 					</ul>
@@ -64,7 +64,7 @@ const Prices = () => {
 					<Image
 						src={certificate}
 						width={420}
-						className='rounded-xl mt-10'
+						className='rounded-xl mt-12'
 						alt='сертификат spa fili'
 					/>
 					<p className='text-center'>

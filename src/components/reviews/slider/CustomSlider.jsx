@@ -13,12 +13,14 @@ const CustomSlider = () => {
 			<Swiper
 				modules={[Navigation, Pagination, A11y]}
 				slidesPerView={1}
+				pagination={{ clickable: true }}
+				scrollbar={{ draggable: true }}
 				spaceBetween={10}
 			>
 				{revData.map(rev => (
 					<SwiperSlide
 						key={rev.id}
-						className='bg-sky-600 flex justify-center items-center rounded-xl px-8'
+						className='bg-sky-600 flex justify-center items-center rounded-xl px-5'
 					>
 						<div className='text-justify'>
 							<h4 className='pb-4 pt-4'>{rev.name}</h4>
