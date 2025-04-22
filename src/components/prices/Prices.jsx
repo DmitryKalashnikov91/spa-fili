@@ -8,17 +8,17 @@ const priceData = [
 	{
 		id: 1,
 		name: 'Разовые услуги',
-		price: '2 200',
+		price: '2 800',
 	},
 	{
 		id: 2,
 		name: 'Абонемент 5 сеансов',
-		price: '9 500',
+		price: '13 000',
 	},
 	{
 		id: 3,
 		name: 'Абонемент 10 сеансов',
-		price: '18 000',
+		price: '24 000',
 	},
 	{
 		id: 4,
@@ -55,7 +55,7 @@ const Prices = () => {
 								<p className=''>от {price}р.</p>
 							</li>
 						))}
-						<li className='text-center pt-8 text-lg underline'>
+						<li className='text-center tracking-widest pt-8 text-xl underline'>
 							<Link href='/catalog'>Подробнее...</Link>
 						</li>
 					</ul>
@@ -64,7 +64,7 @@ const Prices = () => {
 					<Image
 						src={certificate}
 						width={420}
-						className='rounded-xl'
+						className='rounded-xl mt-10'
 						alt='сертификат spa fili'
 					/>
 					<p className='text-center'>

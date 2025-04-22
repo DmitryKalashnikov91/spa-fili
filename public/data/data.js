@@ -90,24 +90,24 @@ export const DATA = [
 ]
 
 export const MASS_DATA_PCKG = [
-	{ id: nanoid(6), minutes: 30, price: 2200 },
-	{ id: nanoid(6), minutes: 45, price: 3000 },
-	{ id: nanoid(6), minutes: 60, price: 3700 },
-	{ id: nanoid(6), minutes: 90, price: 5000 },
-	{ id: nanoid(6), minutes: 120, price: 6500 },
+	{ id: nanoid(6), minutes: 30, price: 2800 },
+	{ id: nanoid(6), minutes: 45, price: 3700 },
+	{ id: nanoid(6), minutes: 60, price: 4500 },
+	{ id: nanoid(6), minutes: 90, price: 6200 },
+	{ id: nanoid(6), minutes: 120, price: 8500 },
 ]
 
 export const FIVE_DATA_PCKG = [
-	{ id: nanoid(6), minutes: 30, price: 9500, perOne: 1900 },
-	{ id: nanoid(6), minutes: 45, price: 13500, perOne: 2700 },
-	{ id: nanoid(6), minutes: 60, price: 17000, perOne: 3400 },
-	{ id: nanoid(6), minutes: 90, price: 23000, perOne: 4600 },
+	{ id: nanoid(6), minutes: 30, price: 13000, perOne: 2600 },
+	{ id: nanoid(6), minutes: 45, price: 17000, perOne: 3400 },
+	{ id: nanoid(6), minutes: 60, price: 21000, perOne: 4200 },
+	{ id: nanoid(6), minutes: 90, price: 29500, perOne: 5900 },
 ]
 export const TEN_DATA_PCKG = [
-	{ id: nanoid(6), minutes: 30, price: 18000, perOne: 1800 },
-	{ id: nanoid(6), minutes: 45, price: 26000, perOne: 2600 },
-	{ id: nanoid(6), minutes: 60, price: 33000, perOne: 3300 },
-	{ id: nanoid(6), minutes: 90, price: 44000, perOne: 4400 },
+	{ id: nanoid(6), minutes: 30, price: 24000, perOne: 2400 },
+	{ id: nanoid(6), minutes: 45, price: 33000, perOne: 3300 },
+	{ id: nanoid(6), minutes: 60, price: 41000, perOne: 4100 },
+	{ id: nanoid(6), minutes: 90, price: 57000, perOne: 5700 },
 ]
 export const OSTEO_PCKG = [
 	{

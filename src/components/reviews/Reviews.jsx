@@ -14,7 +14,7 @@ const Reviews = () => {
 				<CustomSlider />
 			</div>
 			<Link
-				className='text-center text-base underline pt-4'
+				className='text-center text-xl tracking-widest underline pt-4'
 				target='_blank'
 				href='https://yandex.ru/maps/org/spafili/62360509408/reviews/?ll=37.508556%2C55.744188&utm_content=more-reviews&utm_medium=reviews&utm_source=maps-reviews-widget&z=13'
 			>
