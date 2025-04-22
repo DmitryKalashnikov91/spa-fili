@@ -11,7 +11,7 @@ const Catalog = () => {
 	return (
 		<section className={styles.Catalog}>
 			<hr />
-			<SubTitle color={'#018ABE'} content={'Стоимость услуг'} />
+			<SubTitle color={'#018ABE'} content={'Стоимость услуг на массаж'} />
 			<div className={styles.Catalog_prices}>
 				<h3 className='pb-6'>Разовые услуги</h3>
 				<ul className={styles.Catalog_prices__once}>
