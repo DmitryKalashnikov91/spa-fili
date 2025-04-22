@@ -113,27 +113,27 @@ export const OSTEO_PCKG = [
 	{
 		id: nanoid(6),
 		name: 'Осмотр, Рекомендации, диагностика',
-		price: 2000,
+		price: 3500,
 	},
 	{
 		id: nanoid(6),
 		name: 'Коррекция осанки',
-		price: 6000,
+		price: 6500,
 	},
 	{
 		id: nanoid(6),
 		name: 'Остеопатический массаж',
-		price: 5500,
+		price: 7000,
 	},
 	{
 		id: nanoid(6),
 		name: 'Устранение боли, зажимов смещений, блоков',
-		price: 6000,
+		price: 6500,
 	},
 	{
 		id: nanoid(6),
 		name: 'Лимфатическая терапия',
-		price: 6000,
+		price: 8000,
 	},
 	{
 		id: nanoid(6),
@@ -143,6 +143,6 @@ export const OSTEO_PCKG = [
 	{
 		id: nanoid(6),
 		name: 'Висцеральный массаж',
-		price: 3000,
+		price: 4000,
 	},
 ]

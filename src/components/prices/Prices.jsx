@@ -23,7 +23,7 @@ const priceData = [
 	{
 		id: 4,
 		name: 'Услуги остеопата',
-		price: '1 000',
+		price: '3 500',
 	},
 ]
 
