@@ -3,6 +3,7 @@ import cellulite from '../assets/cellulite.png'
 import classic from '../assets/Class.png'
 import cupping from '../assets/cupping.png'
 import device from '../assets/device.png'
+import face from '../assets/face.png'
 import head from '../assets/head.png'
 import limf from '../assets/limf.png'
 import relax from '../assets/relax.png'
@@ -41,7 +42,7 @@ export const DATA = [
 		linkTo: '/cellulite',
 		isMain: true,
 		content:
-			'<div>30 минут 2800р.</div> <div>45 минут 3700р.</div> <div>60 минут 4700р.</div>',
+			'<div>30 минут 2800р.</div> <div>45 минут 3700р.</div> <div>60 минут 4500р.</div>',
 	},
 
 	{
@@ -74,6 +75,14 @@ export const DATA = [
 		isMain: false,
 		content:
 			'<div>45 минут 3700р.</div> <div>60 минут 4500р.</div> <div>90 минут 6200р.</div>',
+	},
+	{
+		id: nanoid(6),
+		name: 'Массаж лица',
+		imgUrl: face,
+		isMain: false,
+		content:
+			'<div>30 минут 2800р.</div> <div>45 минут 3700р.</div> <div>60 минут 4500р.</div>',
 	},
 ]
 
