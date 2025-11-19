@@ -7,7 +7,7 @@ const SubTitle = ({ color, content }) => {
 	return (
 		<div className='flex md:gap-8 gap-2 content-start justify-center'>
 			<Arrow color={color} path={left} />
-			<h2>{content}</h2>
+			<h2 className='text-4xl'>{content}</h2>
 			<Arrow color={color} path={right} />
 		</div>
 	)

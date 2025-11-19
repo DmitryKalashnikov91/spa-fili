@@ -7,7 +7,7 @@ import styles from './Seances.module.scss'
 
 const Seances = () => {
 	const [title, setTitle] = useState([])
-	const cardDataArray = DATA.slice(0, 8).map(item => ({
+	const cardDataArray = DATA.slice(0, 10).map(item => ({
 		title: item.name,
 		description: item.content,
 		imgUrl: item.imgUrl,

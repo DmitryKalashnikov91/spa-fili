@@ -6,6 +6,7 @@ import device from '../assets/device.png'
 import face from '../assets/face.png'
 import head from '../assets/head.png'
 import limf from '../assets/limf.png'
+import osteo from '../assets/osteo.png'
 import relax from '../assets/relax.png'
 import sport from '../assets/sport.png'
 
@@ -83,6 +84,14 @@ export const DATA = [
 		isMain: false,
 		content:
 			'<div>30 минут 2800р.</div> <div>45 минут 3700р.</div> <div>60 минут 4500р.</div>',
+	},
+	{
+		id: nanoid(6),
+		name: 'Остеопатия',
+		imgUrl: osteo,
+		isMain: false,
+		content:
+			'<div>Осмотр, рекомендации, диагностика 3500р.</div> <div>Остеопатический массаж 60 минут 7000р.</div> <div>Коррекция осанки 6500</div>',
 	},
 ]
 
