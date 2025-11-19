@@ -1,15 +1,12 @@
 .HeaderSM {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
 	&_menu {
 		position: absolute;
 
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		justify-content: center;
+		align-items: center;
+		padding: 200px;
 
 		li {
 			padding-bottom: 60px;
@@ -18,7 +15,6 @@
 		}
 		top: 120px;
 		z-index: 100;
-		width: 100%;
 		height: 480px;
 		background-color: #018abe;
 	}

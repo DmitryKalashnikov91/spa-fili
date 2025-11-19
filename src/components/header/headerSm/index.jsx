@@ -33,7 +33,7 @@ const HeaderSM = () => {
 		setIsOpenBurger(!isOpenBurger)
 	}
 	return (
-		<header className={styles.HeaderSM}>
+		<header className='flex justify-center space-x-10'>
 			<Link href='/'>
 				<img src='spa.png' alt='logo spa fili' width={50} />
 			</Link>

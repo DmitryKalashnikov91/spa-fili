@@ -1,6 +1,5 @@
 import Contacts from '@/components/contacts/Contacts'
 import Main from '@/components/main/Main'
-import Prices from '@/components/prices/Prices'
 import Reviews from '@/components/reviews/Reviews'
 import Seances from '@/components/seances/Seances'
 import Specialists from '@/components/specialists/Specialists'
@@ -15,7 +14,6 @@ export default function Home() {
 		<main className='flex min-h-screen flex-col items-center justify-between text-3xl'>
 			<Main />
 			<Seances />
-			<Prices />
 			<Reviews />
 			<Specialists />
 			<Contacts />

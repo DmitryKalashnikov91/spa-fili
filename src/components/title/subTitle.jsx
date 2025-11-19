@@ -5,7 +5,7 @@ const SubTitle = ({ color, content }) => {
 	const right =
 		'M34 0H17C7.61116 0 0 7.61116 0 17H17C26.3888 17 34 9.38884 34 0Z'
 	return (
-		<div className='flex md:gap-12 gap-4 content-center justify-center'>
+		<div className='flex md:gap-8 gap-2 content-start justify-center'>
 			<Arrow color={color} path={left} />
 			<h2>{content}</h2>
 			<Arrow color={color} path={right} />

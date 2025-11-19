@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import SubTitle from '../title/subTitle'
 import styles from './Specialists.module.scss'

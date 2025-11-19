@@ -7,14 +7,14 @@ const contactsData = [
 		id: 1,
 		adress: 'Багратионовский пр-д дом 5, 5 этаж',
 		metro: 'м. Фили',
-		name: 'Spa Fili (Alex)',
+		name: 'СПА Фили (Alex)',
 		href: 'https://dikidi.net/g367474?p=1.sp-pi&c=922352',
 	},
 	{
 		id: 2,
 		adress: 'ул. Большая Филевская 19/18 к.2',
 		metro: 'м. Багратионовская',
-		name: 'Spa Fili',
+		name: 'СПА Фили',
 		href: 'https://dikidi.net/g367474?p=1.sp-pi&c=1608356',
 	},
 ]
