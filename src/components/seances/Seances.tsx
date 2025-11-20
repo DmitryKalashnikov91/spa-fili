@@ -7,16 +7,17 @@ import styles from './Seances.module.scss'
 
 const Seances = () => {
 	const [title, setTitle] = useState([])
-	const cardDataArray = DATA.slice(0, 10).map(item => ({
+	const cardDataArray = DATA.slice(0, 9).map(item => ({
 		title: item.name,
 		description: item.content,
 		imgUrl: item.imgUrl,
 	}))
 
-	const cardFourData = {
-		title: DATA[3].name,
-		description: DATA[3].content,
-		image: DATA[3].imgUrl,
+	const osteoCardData = {
+		title: DATA[9].name,
+		description: DATA[9].content,
+		imgUrl: DATA[9].imgUrl,
+		osteo: true,
 	}
 	return (
 		<div className='mt-16'>
@@ -26,6 +27,7 @@ const Seances = () => {
 					{cardDataArray.map(cardData => (
 						<InteractiveCard key={cardData.title} initialData={cardData} />
 					))}
+					<InteractiveCard initialData={osteoCardData} />
 				</div>
 			</section>
 		</div>

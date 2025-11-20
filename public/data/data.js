@@ -90,8 +90,7 @@ export const DATA = [
 		name: 'Остеопатия',
 		imgUrl: osteo,
 		isMain: false,
-		content:
-			'<div>Осмотр, рекомендации, диагностика 3500р.</div> <div>Остеопатический массаж 60 минут 7000р.</div> <div>Коррекция осанки 6500</div>',
+		content: '',
 	},
 ]
 

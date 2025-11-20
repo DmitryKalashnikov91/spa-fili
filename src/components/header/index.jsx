@@ -17,6 +17,7 @@ const Header = () => {
 					<header className='flex justify-center items-center text-lg pt-5 space-x-28'>
 						<Link href='/'>
 							<Image
+								className='rounded-md'
 								src='/spa.png'
 								alt='spa fili'
 								width={80}
