@@ -37,7 +37,7 @@ const HeaderSM = () => {
 			<Link href='/'>
 				<img
 					className='rounded-md'
-					src='spa.png'
+					src='/logo2.webp'
 					alt='logo spa fili'
 					width={50}
 				/>

@@ -18,7 +18,7 @@ const Header = () => {
 						<Link href='/'>
 							<Image
 								className='rounded-md'
-								src='/spa.png'
+								src='/logo2.webp'
 								alt='spa fili'
 								width={80}
 								loading='lazy'
