@@ -3,7 +3,6 @@ import konst from './assets/konst.png'
 import Mariya from './assets/mary.png'
 import Nikita from './assets/nikita.png'
 import Olga from './assets/olga.png'
-import Sergey from './assets/Sergey.png'
 
 export const SpecJSON = [
 	{
@@ -35,12 +34,5 @@ export const SpecJSON = [
 		urlImg: Nikita,
 		content:
 			'Опыт 2 года. Виды массажа: Классический, Антицеллюлитный, Спортивный, Лимфодренжаный, Мануально-мышечным тестированием.',
-	},
-	{
-		id: nanoid(6),
-		name: 'Сергей',
-		urlImg: Sergey,
-		content:
-			'Опыт более 5 лет. Классический, Спортивный, Антицеллюлитный Лимфодренажный, Баночный, Расслабляющий, Массаж спины, Массаж ног Массаж лица',
 	},
 ]
