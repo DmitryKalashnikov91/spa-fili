@@ -68,7 +68,7 @@ const Header = () => {
 				</Link>
 				<Link
 					className='hover:scale-150'
-					href={'https://t.me/spaAlex'}
+					href={'https://t.me/+79689893388'}
 					target='_blank'
 				>
 					<FaTelegramPlane />
