@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid'
+import Evgeniy from './assets/Evgeniy.png'
 import konst from './assets/konst.png'
 import Mariya from './assets/mary.png'
 import Nikita from './assets/nikita.png'
@@ -34,5 +35,12 @@ export const SpecJSON = [
 		urlImg: Nikita,
 		content:
 			'Опыт 2 года. Виды массажа: Классический, Антицеллюлитный, Спортивный, Лимфодренжаный, Мануально-мышечным тестированием.',
+	},
+	{
+		id: nanoid(6),
+		name: 'Евгений',
+		urlImg: Evgeniy,
+		content:
+			'Опыт 2 года. Виды массажа: Классический, Антицеллюлитный, Спортивный, Релакс.',
 	},
 ]
