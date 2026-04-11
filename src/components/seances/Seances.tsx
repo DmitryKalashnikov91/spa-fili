@@ -13,12 +13,6 @@ const Seances = () => {
 		imgUrl: item.imgUrl,
 	}))
 
-	const osteoCardData = {
-		title: DATA[9].name,
-		description: DATA[9].content,
-		imgUrl: DATA[9].imgUrl,
-		osteo: true,
-	}
 	return (
 		<div className='mt-16'>
 			<SubTitle color={'#018ABE'} content={'Стоимость сеансов'} />
@@ -27,7 +21,6 @@ const Seances = () => {
 					{cardDataArray.map(cardData => (
 						<InteractiveCard key={cardData.title} initialData={cardData} />
 					))}
-					<InteractiveCard initialData={osteoCardData} />
 				</div>
 			</section>
 		</div>

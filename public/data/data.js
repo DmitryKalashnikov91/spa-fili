@@ -6,7 +6,6 @@ import device from '../assets/device.png'
 import face from '../assets/face.png'
 import head from '../assets/head.png'
 import limf from '../assets/limf.png'
-import osteo from '../assets/osteo.png'
 import relax from '../assets/relax.png'
 import sport from '../assets/sport.png'
 
@@ -85,13 +84,6 @@ export const DATA = [
 		content:
 			'<div>30 минут 2800р.</div> <div>45 минут 3700р.</div> <div>60 минут 4500р.</div>',
 	},
-	{
-		id: nanoid(6),
-		name: 'Остеопатия',
-		imgUrl: osteo,
-		isMain: false,
-		content: '',
-	},
 ]
 
 export const MASS_DATA_PCKG = [
@@ -113,41 +105,4 @@ export const TEN_DATA_PCKG = [
 	{ id: nanoid(6), minutes: 45, price: 33000, perOne: 3300 },
 	{ id: nanoid(6), minutes: 60, price: 41000, perOne: 4100 },
 	{ id: nanoid(6), minutes: 90, price: 57000, perOne: 5700 },
-]
-export const OSTEO_PCKG = [
-	{
-		id: nanoid(6),
-		name: 'Осмотр, Рекомендации, диагностика',
-		price: 3500,
-	},
-	{
-		id: nanoid(6),
-		name: 'Коррекция осанки',
-		price: 6500,
-	},
-	{
-		id: nanoid(6),
-		name: 'Остеопатический массаж',
-		price: 7000,
-	},
-	{
-		id: nanoid(6),
-		name: 'Устранение боли, зажимов смещений, блоков',
-		price: 6500,
-	},
-	{
-		id: nanoid(6),
-		name: 'Лимфатическая терапия',
-		price: 8000,
-	},
-	{
-		id: nanoid(6),
-		name: 'Биоэнергорегуляция (БЭМ)',
-		price: 4000,
-	},
-	{
-		id: nanoid(6),
-		name: 'Висцеральный массаж',
-		price: 4000,
-	},
 ]

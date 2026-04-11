@@ -1,7 +1,6 @@
 import {
 	FIVE_DATA_PCKG,
 	MASS_DATA_PCKG,
-	OSTEO_PCKG,
 	TEN_DATA_PCKG,
 } from '../../../public/data/data'
 import SubTitle from '../../components/title/subTitle'
@@ -36,14 +35,6 @@ const Catalog = () => {
 						<li className='pb-5' key={ten.id}>
 							{ten.minutes} минут - {ten.price} рублей <br />({ten.perOne}р. за
 							сеанс)
-						</li>
-					))}
-				</ul>
-				<h3 className='my-6'>Услуги остеопата</h3>
-				<ul>
-					{OSTEO_PCKG.map(osteo => (
-						<li className='pb-5' key={osteo.id}>
-							{osteo.name} - {osteo.price} рублей
 						</li>
 					))}
 				</ul>
