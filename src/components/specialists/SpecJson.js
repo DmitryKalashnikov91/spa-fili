@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid'
 import Evgeniy from './assets/Evgeniy.png'
 import konst from './assets/konst.png'
+import Mariya from './assets/mary.png'
 import Nikita from './assets/nikita.png'
 import Olga from './assets/olga.png'
 
@@ -18,6 +19,14 @@ export const SpecJSON = [
 		urlImg: konst,
 		content:
 			'Опыт более 20 лет. Виды массажа:Классический, Спортивный Баночный, Лимфодренажный, Антицеллюлитный, Релаксирующий массаж, Массаж лица, Точечный , Триггерные точки, Мягкие мануальные техники, Мануальный, Мануальное мышечное тестирование, Тейпирование, Инструментальная мобилизация мягких тканей, Миофасциальный, Пост-изометрическая релаксация.',
+	},
+
+	{
+		id: nanoid(6),
+		name: 'Мария',
+		urlImg: Mariya,
+		content:
+			'Мария - врач, ортопед-травматолог, остеопат, реабилитолог. Стаж работы 12 лет. Ортопед-травматолог 7 лет, остеопат, реабилитолог 7 лет.',
 	},
 
 	{
