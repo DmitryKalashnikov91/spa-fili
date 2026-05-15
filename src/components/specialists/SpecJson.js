@@ -2,16 +2,15 @@ import { nanoid } from 'nanoid'
 import Evgeniy from './assets/Evgeniy.png'
 import konst from './assets/konst.png'
 import Nikita from './assets/nikita.png'
-import Olga from './assets/olga.png'
 
 export const SpecJSON = [
-	{
-		id: nanoid(6),
-		name: 'Ольга',
-		urlImg: Olga,
-		content:
-			'7 лет стажа - все виды ручного массажа (Классический, Антицеллюлитный , Лимфодренажный, Аппаратный массаж (RF-лифтинг, Indiba, кавитация, вакуумный, вибрационный.), Коррекция фигуры, Скрабирование тела, Обертывание)',
-	},
+	// {
+	// 	id: nanoid(6),
+	// 	name: 'Ольга',
+	// 	urlImg: Olga,
+	// 	content:
+	// 		'7 лет стажа - все виды ручного массажа (Классический, Антицеллюлитный , Лимфодренажный, Аппаратный массаж (RF-лифтинг, Indiba, кавитация, вакуумный, вибрационный.), Коррекция фигуры, Скрабирование тела, Обертывание)',
+	// },
 	{
 		id: nanoid(6),
 		name: 'Константин',
